@@ -1,3 +1,11 @@
+DecompressedBG0Data equ 02029000h
+DecompressedBG1Data equ 0202C000h
+DecompressedBG2Data equ 0202F000h
+DecompressedBG3Data equ 02032000h
+.sym off
+DecompressBGData_Size equ 3000h
+.sym on
+
 MinimapData equ 02034000h
 DecompressedMinimapData equ 02034800h
 MinimapVisited equ 02037C00h

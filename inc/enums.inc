@@ -484,6 +484,49 @@ ScrollExtend_Top equ 02h
 ScrollExtend_Bottom equ 03h
 ScrollExtend_None equ 0FFh
 
+ClipdataTile_Air equ 0000h
+ClipdataTile_Solid equ 0010h
+ClipdataTile_DoorTransition equ 0020h
+ClipdataTile_2x2TopLeftNeverReform equ 0050h
+ClipdataTile_2x2TopRightNeverReform equ 0051h
+ClipdataTile_WeakNeverReform equ 0052h
+ClipdataTile_WeakReform equ 0053h
+ClipdataTile_MissileNeverReform equ 0054h
+ClipdataTile_BombNeverReform equ 0055h
+ClipdataTile_BombReform equ 0056h
+ClipdataTile_PBomb equ 0057h
+ClipdataTile_SpeedNoReform equ 0058h
+ClipdataTile_ScrewAttack equ 0059h
+ClipdataTile_Crumble equ 005Ah
+ClipdataTile_WeakNoReform equ 005Bh
+ClipdataTile_MissileNoReform equ 005Eh
+ClipdataTile_2x2TopLeftNoReform equ 005Ch
+ClipdataTile_2x2TopRightNoReform equ 005Dh
+ClipdataTile_2x2BottomLeftNeverReform  equ 0060h
+ClipdataTile_2x2BottomRightNeverReform equ 0061h
+ClipdataTile_MissileTankHidden equ 0064h
+ClipdataTile_EngergyTankHidden equ 0065h
+ClipdataTile_PBombTankHidden equ 0069h
+ClipdataTile_SpeedReform equ 006Bh
+ClipdataTile_2x2BottomLeftNoReform  equ 006Ch
+ClipdataTile_2x2BottomRightNoReform equ 006Dh
+ClipdataTile_VerticalBombChain1 equ 0070h
+ClipdataTile_VerticalBombChain2 equ 0071h
+ClipdataTile_VerticalBombChain3 equ 0072h
+ClipdataTile_VerticalBombChain4 equ 0073h
+ClipdataTile_HorizontalBombChain1 equ 0074h
+ClipdataTile_HorizontalBombChain2 equ 0075h
+ClipdataTile_HorizontalBombChain3 equ 0076h
+ClipdataTile_HorizontalBombChain4 equ 0077h
+
+ClipdataRevealed_Crumble equ 800Bh
+ClipdataRevealed_Weak equ 800Ch
+ClipdataRevealed_Bomb equ 8005h
+ClipdataRevealed_Missile equ 8006h
+ClipdataRevealed_PBomb equ 8007h
+ClipdataRevealed_Speed equ 8008h
+ClipdataRevealed_ScrewAttack equ 800Ah
+
 ; non-vanilla enums
 
 Upgrade_None equ 0
