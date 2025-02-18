@@ -4,6 +4,8 @@ MinimapVisited equ 02037C00h
 
 TanksCollected equ 02037200h
 
+ScrewAttackWJFlag equ 3000001h ; Flag that is set when WallJumping with Screw Attack, non-vanilla
+
 LongFrameCounter equ 03000002h
 ShortFrameCounter equ 03000BE5h
 
@@ -83,6 +85,8 @@ BgPositions_Bg2Y equ 0Ah
 BgPositions_Bg3X equ 0Ch
 BgPositions_Bg3Y equ 0Eh
 .sym on
+
+OriginalHatchTypes equ 30000E0h ; Stores original hatch types when event doors are locked, non-vanilla
 
 ArmCannonPos equ 03000B80h
 .sym off
@@ -340,6 +344,13 @@ MusicInfo_NextTrack equ 22h
 
 SpecialTileset equ 03004DE4h
 HatchData equ 0x3004DEC
+.sym off
+HatchData_Status equ 00h
+HatchData_Animation equ 01h
+HatchData_XPosition equ 02h
+HatchData_YPosition equ 03h
+.sym on
+
 DestinationRoom equ 03004E3Ch
 
 RoomTanks equ 030053DCh
